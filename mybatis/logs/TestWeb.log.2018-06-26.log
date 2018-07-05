@@ -1,0 +1,7 @@
+2018-06-26 11:35:49.702 [main] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+2018-06-26 11:35:49.967 [main] DEBUG dao.com.mybatis.test.UserDao.findAll_COUNT - ==>  Preparing: SELECT count(0) FROM user 
+2018-06-26 11:35:49.999 [main] DEBUG dao.com.mybatis.test.UserDao.findAll_COUNT - ==> Parameters: 
+2018-06-26 11:35:50.014 [main] DEBUG dao.com.mybatis.test.UserDao.findAll_COUNT - <==      Total: 1
+2018-06-26 11:35:50.014 [main] DEBUG dao.com.mybatis.test.UserDao.findAll - ==>  Preparing: select * from user LIMIT ? 
+2018-06-26 11:35:50.014 [main] DEBUG dao.com.mybatis.test.UserDao.findAll - ==> Parameters: 6(Integer)
+2018-06-26 11:35:50.030 [main] DEBUG dao.com.mybatis.test.UserDao.findAll - <==      Total: 6
